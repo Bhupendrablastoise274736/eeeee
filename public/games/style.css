@@ -1,0 +1,163 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+#gameScreen {
+    display: none;
+    width:100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.button {
+    outline-color: #26233a;
+    outline-width: 5px;
+    outline-style: solid;
+    height: 23vw;
+    width: 15vw;
+    border-radius: 8%;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+
+.button:hover {
+    outline-color: purple;
+    transition-duration: 0.7s;
+}
+
+.gameimage {
+    max-width: 90%;
+    max-height: 90%;
+    align-self: center;
+    display: inline-block;
+    position: absolute;
+    border-radius: 3%;
+}
+
+.name {
+    margin-top: 140%;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    width: max-content;
+    z-index: 99999999 !important;
+}
+
+body {
+    background-color: #191724;
+    font-family: 'Helvetica';
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #191724;
+  box-shadow: 0 0 1px 1px #111, inset 0 0 4px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(left, #3e3e3e, #111, #000);
+  box-shadow: inset 0 0 1px 1px #ffffff;
+}
+
+#gameFrame {
+    width: 60%;
+    height: 65%;
+    border-style: none;
+    margin-top: 5%;
+}
+
+#cloakbutton {
+    height: 10%;
+    width: 12%;
+    border-radius: 5px;
+    background-color: #3e3e3e00;
+    outline-color: #26233a;
+    outline-width: 5px;
+    outline-style: solid;
+    position: absolute;
+    z-index: 100;
+    bottom: 10%;
+    left: 20%;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-family: 'Helvetica';
+    font-size: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+#cloakbutton:hover {
+    outline-color: purple;
+    transition-duration: 0.7s;
+}
+
+#frame2 {
+    width: 60%;
+    height: 65%;
+    border-style: none;
+    margin-top: 5%;
+}
+
+#closeGame {
+    height: 10%;
+    width: 12%;
+    border-radius: 5px;
+    background-color: #3e3e3e00;
+    outline-color: #26233a;
+    outline-width: 5px;
+    outline-style: solid;
+    position: absolute;
+    z-index: 100;
+    bottom: 10%;
+    left: 67.5%;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-family: 'Helvetica';
+    font-size: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+#closeGame:hover {
+    outline-color: purple;
+    transition-duration: 0.7s;
+}
