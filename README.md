@@ -1,5 +1,5 @@
 # abnumality-gaming
-The original Abnumality Gaming project, open-sourced and re-written for Nebula.
+The original Abnumality Gaming project, open-sourced.
 
 
 # SETUP
