@@ -18,6 +18,6 @@ Your games site will be served at 127.0.0.1:8080/games.
 # Contribution
 Just open a pull request, if it seems good I'll accept it.
 If you want a list of things needed:
-- Resize game if needed
+- Resize game window if needed
 - Organize code
 - Better readme
