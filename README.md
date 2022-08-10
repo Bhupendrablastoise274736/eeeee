@@ -1,5 +1,5 @@
 # abnumality-gaming
-The original Abnumality Gaming project, open-sourced.
+Automatic game website creation through DOM
 
 
 # SETUP
